@@ -14,12 +14,22 @@ import { Logs } from 'lucide-react'
 import { getMyOrders } from '@/sanity/queries'
 
 const Header = async () => {
+  // const user = await currentUser();
+  // const { userId } = await currentUser();
+  // let orders = null;
+  // if(userId) {
+  //   orders = await getMyOrders(userId);
+  // }
+
   const user = await currentUser();
-  const { userId } = await currentUser();
-  let orders = null;
-  if(userId) {
-    orders = await getMyOrders(userId);
-  }
+const userId = user?.id;
+
+let orders = null;
+
+if (userId) {
+  orders = await getMyOrders(userId);
+}
+
 
   return (
     <header className='bg-white/70 py-5 sticky top-0 z-50  backdrop:blur-md'>
