@@ -4,18 +4,18 @@
 A modern full-stack e-commerce web application built with Next.js, Tailwind CSS, Clerk Authentication, Framer Motion, Sanity CMS, and Stripe.
 This project features a fully functional shopping experience, secure authentication, admin dashboard, product management, order tracking, wishlist, and online payments.
 
-# 🔗 Live Demo: https://heaventech-store.vercel.app
-# 📂 Repository: https://github.com/AzharAli-web/Heaventech-store
+🔗 Live Demo: https://heaventech-store.vercel.app
+ 📂 Repository: https://github.com/AzharAli-web/Heaventech-store
 
 ## 🚀 Features
-# 🔐 Authentication (Clerk)
+### 🔐 Authentication (Clerk)
 
 Secure Signup & Login
 Session management
 Protected routes for authenticated users
 User profile handling
 
-# 🛍️ Shopping Experience
+### 🛍️ Shopping Experience
 
 Product listing page with search and filters
 Product detail view
@@ -25,46 +25,46 @@ Real-time total price calculation
 Smooth UI interactions
 Wishlist / Featured products — add/remove favorites
 
-# 💳 Payments (Stripe)
+### 💳 Payments (Stripe)
 
 Secure payment processing
 Checkout with live Stripe integration
 Real-time order confirmation
 
-# 🎬 Animations (Framer Motion)
+### 🎬 Animations (Framer Motion)
 
 Page transitions
 Smooth component animations
 Interactive hover effects
 Animated cart updates
 
-# 📱 Responsive Design
+### 📱 Responsive Design
 
 Mobile-first layout
 Fully responsive (Mobile / Tablet / Desktop)
 Modern UI built with Tailwind CSS
 
 ## 🧱 Tech Stack
-# Frontend
+### Frontend
 
 Next.js (React)
 Tailwind CSS
 Framer Motion
 
-# Authentication
+### Authentication
 
 Clerk
 
-# Backend / CMS
+### Backend / CMS
 
 Sanity Studio (Headless CMS)
 Next.js API Routes
 
-# Payments
+### Payments
 
 Stripe
 
-# Deployment
+### Deployment
 
 Fully deployed on Vercel
 
@@ -104,14 +104,14 @@ HeavenTech-Store/
 The project includes a Sanity Studio admin panel for managing products, categories, brands, and other site content.
 Note: Admin access is private for security reasons. Screenshots below illustrate all functionality.
 
-# Available in Admin
+### Available in Admin
 
 Add / Edit / Delete products, categories, brands, and blog content
 Full control over all site data
 Manage featured products dynamically
 Track orders with unique IDs for accurate order management
 
-# Screenshots:
+### Screenshots:
 ![Admin Category.](./screenshots/Category.png)
 ![Admin Product](./screenshots/Products.png)
 ![Admin Brand](./screenshots/Brand.png)
@@ -120,7 +120,7 @@ Track orders with unique IDs for accurate order management
 
 (Add your actual screenshots here)
 
-## 🧠 What I Learned
+### 🧠 What I Learned
 
 Through this project, I strengthened my understanding of:
 Implementing secure authentication using Clerk
@@ -134,16 +134,16 @@ Building a fully functional e-commerce platform with order tracking and wishlist
 
 ## 🛠️ Installation & Setup
 
-# Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/AzharAli-web/Heaventech-store.git
 cd Heaventech-store
 
-# Install dependencies:
+### Install dependencies:
 
 npm install
 
-# Run the development server:
+### Run the development server:
 
 npm run dev
 
@@ -152,21 +152,21 @@ Open http://localhost:3000
 
 ## Environment Variables:
 
-# Clerk Authentication
+### Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-# Sanity CMS
+### Sanity CMS
 NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
 NEXT_PUBLIC_SANITY_DATASET=your_sanity_dataset
 SANITY_API_READ_TOKEN=your_sanity_read_token
 SANITY_API_TOKEN=your_sanity_write_token
 
-# Stripe Payments
+### Stripe Payments
 STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
 
-# App URLs
+### App URLs
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 NEXT_PUBLIC_APP_URL=https://heaventech-store.vercel.app/
 
